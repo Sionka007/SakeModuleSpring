@@ -1,7 +1,5 @@
 package grp.training.SaleModule.ProductsDTO;
 
-import grp.training.SaleModule.Entity.Orders;
-import grp.training.SaleModule.Entity.Products;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

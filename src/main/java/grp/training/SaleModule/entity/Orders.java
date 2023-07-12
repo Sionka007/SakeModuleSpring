@@ -1,4 +1,4 @@
-package grp.training.SaleModule.Entity;
+package grp.training.SaleModule.entity;
 
 import grp.training.SaleModule.ProductsDTO.OrderStatus;
 import jakarta.persistence.*;

@@ -1,7 +1,6 @@
 package grp.training.SaleModule.repository;
 
-import grp.training.SaleModule.Entity.OrderItems;
-import grp.training.SaleModule.Entity.Orders;
+import grp.training.SaleModule.entity.Orders;
 import grp.training.SaleModule.ProductsDTO.OrderStatus;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;

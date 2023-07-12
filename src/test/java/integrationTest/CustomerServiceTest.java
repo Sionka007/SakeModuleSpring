@@ -1,6 +1,6 @@
 package integrationTest;
 
-import grp.training.SaleModule.Entity.Customers;
+import grp.training.SaleModule.entity.Customers;
 import grp.training.SaleModule.exception.SaleModuleException;
 import grp.training.SaleModule.repository.CustomersRepository;
 import grp.training.SaleModule.service.CustomerService;
@@ -8,11 +8,9 @@ import grp.training.SaleModule.service.CustomersServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.List;

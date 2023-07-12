@@ -1,7 +1,7 @@
 package integrationTest;
 
 
-import grp.training.SaleModule.Entity.Products;
+import grp.training.SaleModule.entity.Products;
 import grp.training.SaleModule.exception.SaleModuleException;
 import grp.training.SaleModule.repository.ProductRepository;
 import grp.training.SaleModule.service.ProductsService;

@@ -1,6 +1,6 @@
 package grp.training.SaleModule.repository;
 
-import grp.training.SaleModule.Entity.Customers;
+import grp.training.SaleModule.entity.Customers;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

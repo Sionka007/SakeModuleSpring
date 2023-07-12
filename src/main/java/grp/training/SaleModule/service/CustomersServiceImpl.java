@@ -1,6 +1,6 @@
 package grp.training.SaleModule.service;
 
-import grp.training.SaleModule.Entity.Customers;
+import grp.training.SaleModule.entity.Customers;
 import grp.training.SaleModule.ProductsDTO.CustomersDTO;
 import grp.training.SaleModule.exception.SaleModuleException;
 import grp.training.SaleModule.repository.CustomersRepository;

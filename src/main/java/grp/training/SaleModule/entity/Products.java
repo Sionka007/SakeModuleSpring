@@ -1,4 +1,4 @@
-package grp.training.SaleModule.Entity;
+package grp.training.SaleModule.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

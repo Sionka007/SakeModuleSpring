@@ -1,11 +1,10 @@
 package integrationTest;
 
-import grp.training.SaleModule.Entity.Customers;
-import grp.training.SaleModule.Entity.OrderItems;
-import grp.training.SaleModule.Entity.Orders;
-import grp.training.SaleModule.Entity.Products;
+import grp.training.SaleModule.entity.Customers;
+import grp.training.SaleModule.entity.OrderItems;
+import grp.training.SaleModule.entity.Orders;
+import grp.training.SaleModule.entity.Products;
 import grp.training.SaleModule.ProductsDTO.OrderStatus;
-import grp.training.SaleModule.ProductsDTO.OrdersDTO;
 import grp.training.SaleModule.exception.SaleModuleException;
 import grp.training.SaleModule.repository.CustomersRepository;
 import grp.training.SaleModule.repository.OrderItemsRepository;
@@ -15,7 +14,6 @@ import grp.training.SaleModule.service.OrdersService;
 import grp.training.SaleModule.service.OrdersServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

@@ -1,9 +1,9 @@
 package grp.training.SaleModule.service;
 
-import grp.training.SaleModule.Entity.Customers;
-import grp.training.SaleModule.Entity.OrderItems;
-import grp.training.SaleModule.Entity.Orders;
-import grp.training.SaleModule.Entity.Products;
+import grp.training.SaleModule.entity.Customers;
+import grp.training.SaleModule.entity.OrderItems;
+import grp.training.SaleModule.entity.Orders;
+import grp.training.SaleModule.entity.Products;
 import grp.training.SaleModule.ProductsDTO.*;
 import grp.training.SaleModule.exception.SaleModuleException;
 import grp.training.SaleModule.repository.CustomersRepository;
